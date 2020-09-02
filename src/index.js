@@ -15,7 +15,7 @@ import { AUTH_TOKEN } from './constants'
 
 // this is the url where the gql server runs
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000'
+  uri: 'http://localhost:5000'
 })
 
 const authLink = setContext((_, { headers }) => {
